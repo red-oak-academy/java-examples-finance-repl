@@ -1,6 +1,6 @@
 package de.f73.term5.financerepl.repl;
 
-import de.f73.term5.financerepl.services.CompanyQuoteService;
+import de.f73.term5.financerepl.services.CompanyQuoteCommand;
 
 import java.util.*;
 import java.util.function.Predicate;
@@ -12,7 +12,7 @@ public class FinanceRepl {
     public FinanceRepl() {
 
         List<Command> commandList = new ArrayList<>();
-        commandList.add(new CompanyQuoteService());
+        commandList.add(new CompanyQuoteCommand());
         commandList.add(new QuitCommand());
 
         try (Scanner scanner = new Scanner(System.in)) {

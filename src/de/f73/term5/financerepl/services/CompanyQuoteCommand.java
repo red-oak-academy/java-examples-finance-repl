@@ -2,7 +2,7 @@ package de.f73.term5.financerepl.services;
 
 import de.f73.term5.financerepl.repl.Command;
 
-public class CompanyQuoteService implements Command {
+public class CompanyQuoteCommand implements Command {
 
     @Override
     public boolean canHandle(String command, String[] args) {
@@ -19,9 +19,7 @@ public class CompanyQuoteService implements Command {
     @Override
     public boolean handle(String expression, String[] args) {
         System.out.println("Fetching Company Profile...");
-
         //TODO keep going here
-
 
         return true;
     }
