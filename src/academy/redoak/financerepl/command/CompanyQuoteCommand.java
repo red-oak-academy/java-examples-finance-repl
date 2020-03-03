@@ -1,4 +1,4 @@
-package academy.redoak.financerepl.services;
+package academy.redoak.financerepl.command;
 
 import academy.redoak.financerepl.repl.Command;
 

@@ -1,7 +1,7 @@
 package academy.redoak.financerepl.repl;
 
 import academy.redoak.financerepl.command.QuitCommand;
-import academy.redoak.financerepl.services.CompanyQuoteCommand;
+import academy.redoak.financerepl.command.CompanyQuoteCommand;
 
 import java.util.*;
 import java.util.function.Predicate;
